@@ -154,3 +154,82 @@ footer .social-icons {
 footer .social-icons img {
     width: 30px;
 }
+
+
+.page-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.employees {
+    text-align: center;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.employee-grid img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.employee-grid figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.contact-form {
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #cf6a10;
+}
